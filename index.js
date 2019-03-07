@@ -29,7 +29,7 @@ app.get("/weather/city/:city", (req, res) => {
         });
 });
 
-app.get("/*", (req, res) => {
+app.get("*", (req, res) => {
     res.send("Try entering /weather/city/{cityname} to get temperature. :)");
 });
 
