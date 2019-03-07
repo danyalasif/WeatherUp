@@ -1,12 +1,12 @@
 {
-    "name": "temperature-api",
+    "name": "weatherup",
     "version": "1.0.0",
     "description": "A simple API that returns the temperature of current location in JSON format.",
     "main": "index.js",
     "scripts": {
         "start": "nodemon index"
     },
-    "author": "",
+    "author": "Danyal Asif",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.18.0",
