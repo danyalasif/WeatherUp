@@ -16,7 +16,7 @@ let getWeatherData = city =>
 
 app.get("/", (req, res) => {
     res.send(
-        "Weather App: Try entering https://weatherup-app.herokuapp.com/weather/city/cityName  to get temps for that city."
+        "<h3>Weather App: Try entering https://weatherup-app.herokuapp.com/weather/city/{cityName}  to get temps for that city. (Replace {cityName} with your city of choice.</h3>"
     );
 });
 
