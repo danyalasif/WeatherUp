@@ -14,7 +14,11 @@ let getWeatherData = city =>
         })
         .then(data => data.data.main);
 
-app.get("/", (req, res) => {});
+app.get("/", (req, res) => {
+    res.send(
+        "Weather App: Try entering https://weatherup-app.herokuapp.com/weather/city/cityName  to get temps for that city."
+    );
+});
 
 app.get("/weather/city/:city", (req, res) => {
     let city = req.params.city;
